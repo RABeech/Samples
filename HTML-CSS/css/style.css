@@ -1,0 +1,272 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Color palette
+.dark-primary-color    { background: #0097A7; }
+.default-primary-color { background: #00BCD4; }
+.light-primary-color   { background: #B2EBF2; }
+.text-primary-color    { color: #FFFFFF; }
+.accent-color          { background: #FFC107; }
+.primary-text-color    { color: #212121; }
+.secondary-text-color  { color: #757575; }
+.divider-color         { border-color: #BDBDBD; }
+*/
+
+.container {
+	background-color: #0097A7;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	border-bottom-width: 0px;
+	padding-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+}
+
+header {
+	border-style: solid;
+  border-color: #FFC107;
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-top: 20px;
+}
+
+/* ------- Banner setings ------- */
+
+.banner_area {
+	background-image: url(../assests/Joggers-banner.png);
+	height: 150px;
+	width: 100%;
+	margin: auto;
+	border-bottom: 2px solid #FFC107;
+	padding-top: 30px;
+	padding-left: 30px;
+	position: relative;
+}
+
+.banner_text {
+	padding: 20px;
+}
+
+h1 {
+	color: white;
+	margin-bottom: 0;
+}
+
+.subheading {
+	color: white;
+	margin-top: 2px;
+	padding-left: 22px;
+}
+
+/* ------- Menu setings ------- */
+.menu {
+	background: #BDBDBD;
+	width: 100%;
+	margin: auto;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #757575;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+		font-weight: bold;
+		text-transform: uppercase;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #BDBDBD;
+}
+
+.menu_header {
+	display: block;
+	color: white;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 16px;
+}
+
+/* ------- Content setings ------- */
+
+.content {
+	color: white;
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-top: 20px;
+	display: inline-block;
+}
+
+.c_welcome {
+	float: left;
+	padding-left: 10px;
+	width: 55%;
+	text-align: justify;
+  text-justify: inter-word;
+}
+
+.c_events {
+	background: #B2EBF2;
+	color: #212121;
+	float: right;
+	padding-left: 10px;
+	width: 38%;
+	border-style: solid;
+  border-color: #FFC107;
+	margin-bottom: 25px;
+	border-radius: 15px 50px;
+}
+
+.c_events h3 {
+	margin-bottom: 0;
+	text-decoration: underline;
+}
+
+.c_events p {
+	margin-top: 2px;
+	margin-bottom: 0;
+}
+
+.c_events ul {
+	margin-top: 12px;
+}
+
+.marathon_pic{
+	float: right;
+	width: 25%;
+	height: 175px;
+	object-fit: fill;
+	border-style: solid;
+  border-color: #FFC107;
+	border-radius: 15px 50px;
+	margin-right: 160px;
+}
+
+.text_justify {
+	text-align: justify;
+	text-justify: inter-word;
+	padding: 8px;
+}
+
+.text_justify strong {
+		color: #BDBDBD;
+}
+
+/* Tech page edits */
+
+.tech_content{
+	text-align: justify;
+  text-justify: inter-word;
+	margin-top: 0;
+	padding-top: 0;
+	float: left;
+}
+
+.img_float{
+	float: left;
+	margin-left: 4px;
+	margin-right: 12px;
+	margin-bottom: 4px;
+	border-style: solid;
+  border-color: #FFC107;
+	border-radius: 15px 50px;
+}
+
+.img_float_right{
+	float: right;
+	margin-left: 4px;
+	margin-right: 12px;
+	margin-top: 12px;
+	margin-bottom: 4px;
+	border-style: solid;
+  border-color: #FFC107;
+	border-radius: 15px 50px;
+}
+
+.tech_liststyle {
+	color: #BDBDBD;
+}
+
+.tech_liststyle span {
+	color: white;
+}
+
+form {
+	color: black;
+	background: #B2EBF2;
+	width: 500px;
+	margin: auto;
+	padding: 8px;
+	border-style: solid;
+  border-color: #B2EBF2;
+	border-radius: 20px;
+}
+
+h3 {
+	margin-bottom: 0;
+}
+
+h4 {
+	margin-top: 0;
+}
+
+.form_span {
+	font-size: 75%;
+}
+
+/* Gear page edits */
+
+.gear_text_justify {
+	text-align: justify;
+	text-justify: inter-word;
+	padding: 8px;
+}
+
+.gear_text_justify strong {
+		color: #BDBDBD;
+}
+
+.clearfix {
+  clear: both;
+}
+
+/* ------- Footer setings ------- */
+
+footer {
+	border-style: solid;
+  border-color: #FFC107;
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-top: 20px;
+}
+
+body {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	background-color: #0097A7;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
