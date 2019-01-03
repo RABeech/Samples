@@ -109,20 +109,6 @@ public class Mergesort{
     }
     
     /* -------------------------------------------------------------------------
-     * EXTRA CREDIT: INSERTION / SELECTION SORT FOR SUBARRAYS
-     * ---------------------------------------------------------------------- */
-    /** Sorts a subarray using either insertion or selection sort for use in
-     * sort(Comparable[] a, Comparable[] aux, int lo, int hi).
-     * @param a an array of comparable elements
-     * @param lo the leftmost (lowest) index of the sort
-     * @param hi the rightmost (highest) index of the sort */
-    private static void subSort(Comparable[] a, int lo, int hi){
-        
-        // YOUR CODE HERE
-        
-    }
-    
-    /* -------------------------------------------------------------------------
      * HELPER SORTING METHODS
      * ---------------------------------------------------------------------- */
     
