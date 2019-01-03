@@ -150,7 +150,7 @@ public class Insertion {
                 executionTime[j][i] = timer.elapsedTime();
             }
              
-            /*
+            
             StdOut.print("Ascending sort: ");
             StdOut.println(Insertion.isSorted(a) ? "SUCCESS" : "FAILED");
             Selection.show( a );
@@ -158,7 +158,7 @@ public class Insertion {
             StdOut.print("\nDescending sort: ");
             StdOut.println(Insertion.isReverseSorted(b) ? "SUCCESS" : "FAILED");
             Selection.show( b );
-            */
+            
 
         }
          
