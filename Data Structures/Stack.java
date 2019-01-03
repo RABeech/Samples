@@ -1,5 +1,5 @@
 /**
- * Created by mcshin on 1/25/17.
+ * Created by rabeech on 1/25/17.
  */
 
 import edu.princeton.cs.algs4.*;
@@ -146,7 +146,6 @@ public class Stack<Item> implements Iterable<Item> {
             out.print(stackItem + " ");
         out.println(" (remaining on stack)");
         
-        // EXTRA CREDIT: reverse the stack and print the results
     }
  
  
