@@ -1,7 +1,3 @@
-/**
- * Created by mcshin on 1/27/17.
- */
-
 import edu.princeton.cs.algs4.*;
 import java.util.*;
 
