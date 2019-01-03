@@ -1,6 +1,6 @@
 /*
-Richard Beech - Mid Term
-ITCS - 3166-051 - Spring 2017
+Richard Beech
+Spring 2017
 2/23/17
 */
 
