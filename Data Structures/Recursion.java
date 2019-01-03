@@ -1,5 +1,5 @@
 /**
- * Created by mcshin on 2/8/17.
+ * Created by rabeech on 2/8/17.
  */
 
 import edu.princeton.cs.algs4.*;
@@ -84,7 +84,6 @@ public class Recursion {
         double elapsedTime = timer.elapsedTime();
         System.out.println(elapsedTime);
         
-        /* BEGIN EXTRA CREDIT DEBUG ----------------------------------------- */
         // Compute the n-th fibonacci number sequentially for n = 1 to 10
         StdOut.println("Fibonacci (seq):");
         Stopwatch stimer = new Stopwatch();
@@ -93,15 +92,7 @@ public class Recursion {
         }
         double selapsedTime = stimer.elapsedTime();
         System.out.println(selapsedTime);
-        /* END EXTRA CREDIT DEBUG ------------------------------------------- */
-        
-        /* EXTRA CREDIT
-         * Compare the execution times of recursive and sequential fibonacci
-         * numbers for n = 1 to 50 */
-        
-        // EXTRA CREDIT: YOUR CODE HERE
-        // Sample print statement:
-        // StdOut.printf(n + " => " + value + " (%.09f sec)\n", seqTime);
+    
     }
     
     /** Helper stopwatch class */
